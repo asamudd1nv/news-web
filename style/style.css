@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 1140px;
+    padding: 0 15px;
+    margin: 25px auto 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav ul{
+    display: flex; 
+}
+nav ul a{
+    font-size: 18;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: 0.5;
+}
+.active{
+    color: #ef4423
+}
+nav ul a:hover{
+color: #ef4423;
+}
+.header_banner{
+    width: 100%;
+    height: 272px;
+    object-fit: cover;
+    margin-top: 12px;
+}
+.news_item{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.news_pic{
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+.header_title{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.news_desc{
+    color: #ebebeb;
+
+}
+.news_link{
+    padding: 15px;
+    color: white;
+
+}
+.red{
+    background-color: red;
+}
+.news{
+    display: flex;
+}
+.purple{
+    background: purple;
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+.main_news_title{
+    margin: 42px 0 40px;
+    text-align: center;
+    font-size: 22px;
+    color: #3a3838;
+}
+
+
+.main_news_item{
+    background: #EDEDED;
+}
+
+.main_news_pic{
+    width: 530px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.main_news_item_title{
+    font-size: 22px;
+    color: #3a3838;
+    margin-bottom: 28px;
+}
+
+
+.main_news_item_desk{
+    font-size: 18px;
+    color: #686868;
+}
+
+.main .main_news_content{
+    margin: 20px 0 30px;
+}
+
+.footer_content{
+    width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    margin: 50px;
+    padding: 28px 0;
+    background: #3a3838;
+}
+
+
+.footer_content ul a{
+    color: white;
+}
